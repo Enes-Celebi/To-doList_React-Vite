@@ -1,0 +1,61 @@
+body {
+    font-family: 'Courier New', monospace; /* Change font */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffeeba; /* Yellow notebook background color */
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  input {
+    padding: 8px;
+    margin-right: 8px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: #000; /* Initial text color is black */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add color transition */
+  }
+  
+  button:hover {
+    background-color: #45a049;
+    color: #fff; /* Text color changes to white on hover */
+  }
+  
+  .task-container {
+    margin-top: 16px;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox {
+    margin-right: 8px;
+  }
+  
